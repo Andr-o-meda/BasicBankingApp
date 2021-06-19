@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_bg"
+    android:padding="20dp"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/ll1"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/n1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name1"
+        android:textSize="20sp"
+        android:textColor="#e5e5e5"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_forward_24"
+
+            />
+    <TextView
+        android:id="@+id/n2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Name2"
+            android:textColor="#e5e5e5"
+        />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/amt"
+        android:layout_below="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="Enter Amount here!"
+        android:textColorHint="#e5e5e5"
+        android:gravity="center"
+        android:textColor="#e5e5e5"
+        />
+    <Button
+        android:layout_below="@+id/amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND MONEY"
+        android:id="@+id/send"
+        android:elevation="10dp"
+        android:background="@drawable/button_bg"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/banking_hs_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW ALL CUSTOMERS"
+        android:textSize="24sp"
+        android:background="@drawable/button_bg"
+
+        />
+    <Button
+        android:id="@+id/b2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRANSACTION HISTORY"
+        android:textSize="24sp"
+        android:background="@drawable/button_bg"
+
+        />
+
+</RelativeLayout>

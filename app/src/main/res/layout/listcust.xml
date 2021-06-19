@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/lin1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="350dp"
+            android:minWidth="350dp"
+            android:padding="10dp"
+            android:text="SELECT USER1"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/canshel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_cancel_24"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/entry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:longClickable="true"
+        android:layout_below="@+id/lin1">
+
+    </ListView>
+</RelativeLayout>
